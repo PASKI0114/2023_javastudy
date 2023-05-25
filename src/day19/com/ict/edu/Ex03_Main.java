@@ -27,7 +27,7 @@ public class Ex03_Main {
 					System.out.println("AAAAAAA"+Thread.currentThread().getName());
 				}
 			}
-			}).start();
+			}.start();
 			
 		System.out.println("Main: "+Thread.currentThread().getName());
 	}
